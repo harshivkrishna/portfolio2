@@ -1,0 +1,199 @@
+@media screen and (max-width:900px){
+    nav{
+        width: 85%;
+        height: 10vh;
+    }
+    header h1{
+        font-size: 30px;
+        font-weight: 600;
+        letter-spacing: 3px;
+    }
+
+    header ul{
+        gap: 2.5rem;
+    }
+
+    .s-container{
+        min-height:80vh;
+        flex-direction: column-reverse;
+        gap: 10rem;
+    }
+
+    .icons{
+        gap: 1rem;
+        top: 70%;
+    }
+
+    .content{
+        width: 80%;
+    }
+
+    .image{
+        width: 60%;
+        height: 200px;
+    }
+
+    .title{
+        font-size: 2.5rem;
+        font-weight: 300;
+        line-height: 2.5rem;
+        margin-bottom: 1rem;
+    }
+
+    .title span{
+        font-weight: 600;
+    }
+
+    .subtitle{
+        letter-spacing: 2px;
+        font-weight: 500;
+        margin-bottom: .5rem;
+        font-size: 1rem;
+    }
+
+    .header h1{
+        font-size: 30px;
+        font-weight: 600;
+        letter-spacing: 3px;
+        margin-top: 10px;
+    }
+
+    .header h1::after{
+        height: 3px;
+        border-radius: 1px;
+    }
+
+    .contact .wrapper{
+        font-size: 20px;
+    }
+
+    .projects-section .wrapper{
+        gap: 6rem;
+    }
+
+    .project-card:hover{
+        border: 3px solid white;
+    }
+}
+
+    /* MOBILE SCREEN CSS */
+
+@media screen and (max-width:500px) {
+    html{
+        width: 100%;
+    }
+    nav ul{
+        display: none;
+    }
+    #btn{
+        display: block;
+    }
+    header h1{
+        font-size: 20px;
+        font-weight: 500;
+        letter-spacing: 2px;
+    }
+
+
+    .s-container{
+        min-height:80vh;
+        flex-direction: column-reverse;
+        width: 85%;
+    }
+
+    .content{
+        gap: 0;
+        margin-top:0;
+        padding-top: 0;
+    }
+
+    .icons{
+        gap: 0.5rem;
+        top: 70%;
+        left: 3px;
+    }
+
+
+    .descp{
+        width: 100%;
+        font-size: 10px;
+        line-height: normal;  
+    }
+
+
+    .image img{
+        height: 130px;
+        width: 130px;
+    }
+    
+    .image{
+        height: fit-content;
+        display: flex;
+        justify-content: center;
+    }
+
+    .title{
+        font-size: 1rem;
+        font-weight: 300;
+        line-height: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    .title span{
+        font-weight: 600;
+    }
+
+    .subtitle{
+        letter-spacing: 2px;
+        font-weight: 500;
+        margin-bottom: 5px;
+        font-size: 0.5rem;
+    }
+
+    nav{
+        position: sticky;
+        top: 0;
+    }
+
+    .s-container{
+        gap: 20px;
+    }
+    .buttons a{
+        font-size: 10px;
+        padding: 5px;
+        font-weight: 400;
+    }
+
+    .header h1::after{
+        height: 3px;
+        border-radius: 1px;
+    }
+
+    .contact .wrapper{
+        font-size: 20px;
+    }
+   
+    .projects-section .wrapper{
+        gap: 2rem;
+        width: 90%;
+    }
+
+    .check-project a{
+        font-size: 15px;
+    }
+    .project-card:hover{
+        border: 3px solid white;
+    }
+    .contact .footer p::after{
+        content: "";
+        position: absolute;
+        bottom: 0;
+        transform: translateX(50%);
+        width: 330px;
+        height: 2px;
+        background-color: white;
+        border-radius: 1rem;
+        text-align: center;
+    }
+
+}
